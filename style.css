@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#searchBarContainer {
+    margin-top: 10px;
+}
+
+#searchBar {
+    width: 100%;
+    padding: 10px;
+}
+
+#navBar {
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#navItems {
+    display: flex;
+    gap: 20px;
+}
+
+#navItems div {
+    font-weight: bold;
+}
+
+#mainContent {
+    width: 100%;
+    padding: 10px;
+}
+
+#mainContent img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#newEdition {
+    width: 100%; /* Set width as 100% to make it the same size as the text */
+}
+
+#toggleButtons {
+    display: flex;
+    gap: 10px;
+}
+
+.category {
+    width: 100%;
+}
+
+#shirts,
+#hoodies {
+    width: 100%;
+}
+
+.heading {
+    font-weight: bold;
+}
+
+.quote {
+    font-weight: bold;
+}
